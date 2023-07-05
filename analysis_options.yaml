@@ -1,0 +1,5 @@
+# TO disable some analysis rules in our code, we use this
+
+analyzer:
+  exclude:
+    - __brick__/** 
