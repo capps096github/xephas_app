@@ -1,5 +1,7 @@
 # xephas_app
 
+# Refer to https://github.com/capps096github/Cephas-Bricks/tree/master/xephas_app and disregard this
+
 [![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
 
 A starter app template that has been designed by Xephas as per his coding style when he's creating new apps for projects he's working on
@@ -33,7 +35,20 @@ A few resources to get you started if this is your first brick template:
 flutter create project_name
 # 2. Initialize mason in the project via the command below
 mason init
-# 3. Add the brick to the project
+# 3. Add the brick to the project mason.yaml file using one of the 2 methods below
+#a) From Github
+  # Bricks can also be imported via remote git url.
+  # Uncomment the following lines to import the "xephas_app" brick from git.
+bricks:
+# start here incase the bricks tag is present in the mason.yaml file
+  xephas_app:
+    git:
+      url: https://github.com/capps096github/Cephas-Bricks.git
+      path: xephas_app
+
+
+
+#b) from file directory incase it is cloned
 
 
 ```
